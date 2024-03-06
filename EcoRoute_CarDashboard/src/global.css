@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-dm-mono: "DM Mono";
+  --font-inter: Inter;
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-61xl: 80px;
+  --font-size-base: 16px;
+  --font-size-17xl: 36px;
+
+  /* Colors */
+  --color-white: #fff;
+  --neutral-gray-900: #0f172a;
+  --secondary-500: #f7ce46;
+  --color-cadetblue: #4f939c;
+  --color-snow: #fffbfb;
+  --color-whitesmoke-100: #f8f8f8;
+  --color-whitesmoke-200: #f6f7f9;
+
+  /* Gaps */
+  --gap-7xs: 6px;
+  --gap-5xl: 24px;
+  --gap-xs: 12px;
+  --gap-9xs: 4px;
+
+  /* Paddings */
+  --padding-sm: 14px;
+  --padding-xl: 20px;
+  --padding-base: 16px;
+
+  /* border radiuses */
+  --br-8xs: 5px;
+  --br-mini: 15px;
+  --br-9xs: 4px;
+}

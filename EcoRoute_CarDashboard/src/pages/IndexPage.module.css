@@ -1,0 +1,158 @@
+.imageIcon {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-9xs);
+  max-width: 100%;
+  overflow: hidden;
+  height: 186px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.header {
+  flex: 1;
+}
+.container1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.icons,
+.title {
+  position: relative;
+}
+.title {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.icons {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.dropdown {
+  width: 268px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.trackRealTime {
+  margin: 0;
+}
+.trackRealTimeContainer {
+  align-self: stretch;
+  position: relative;
+}
+.paragraph {
+  align-self: stretch;
+  background-color: var(--color-cadetblue);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  font-size: var(--font-size-base);
+  color: var(--color-whitesmoke-200);
+}
+.content {
+  border: 1px solid var(--color-snow);
+}
+.container,
+.content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.chargingStationsCard,
+.trackDataCard {
+  position: absolute;
+  top: 289px;
+  left: 452px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-cadetblue);
+  width: 297px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.chargingStationsCard {
+  left: 817px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image1Icon {
+  position: relative;
+  width: 277px;
+  height: 186px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.container4,
+.setJouneryCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container4 {
+  align-self: stretch;
+}
+.setJouneryCard {
+  position: absolute;
+  top: 289px;
+  left: 103px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-cadetblue);
+  width: 297px;
+  height: 410px;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  cursor: pointer;
+}
+.logoIcon {
+  position: absolute;
+  top: calc(50% - 374px);
+  left: 1089px;
+  width: 50.44px;
+  height: 32.43px;
+}
+.section_one,
+.section_two {
+  height: 834px;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  
+}
+.section_two {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-image: url(/public/indexPageImg.png);
+  
+}
+.section_one {
+  position: relative;
+  width: 100%;
+  
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-whitesmoke-100);
+  font-family: var(--font-inter);
+
+  display: flex;
+  justify-content: center;
+}
